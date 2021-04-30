@@ -1,9 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-<<<<<<< HEAD
 project(team_55)
-=======
-project(team55)
->>>>>>> ae7d3c4e80c7646a3634bf867d03f3d440862916
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -11,13 +7,7 @@ project(team55)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-<<<<<<< HEAD
 find_package(catkin REQUIRED)
-=======
-find_package(catkin REQUIRED COMPONENTS
-  rospy
-)
->>>>>>> ae7d3c4e80c7646a3634bf867d03f3d440862916
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -110,13 +100,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-<<<<<<< HEAD
 #  LIBRARIES team_55
 #  CATKIN_DEPENDS other_catkin_pkg
-=======
-#  LIBRARIES team55
-#  CATKIN_DEPENDS rospy
->>>>>>> ae7d3c4e80c7646a3634bf867d03f3d440862916
 #  DEPENDS system_lib
 )
 
@@ -128,20 +113,12 @@ catkin_package(
 ## Your package locations should be listed before other locations
 include_directories(
 # include
-<<<<<<< HEAD
 # ${catkin_INCLUDE_DIRS}
-=======
-  ${catkin_INCLUDE_DIRS}
->>>>>>> ae7d3c4e80c7646a3634bf867d03f3d440862916
 )
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-<<<<<<< HEAD
 #   src/${PROJECT_NAME}/team_55.cpp
-=======
-#   src/${PROJECT_NAME}/team55.cpp
->>>>>>> ae7d3c4e80c7646a3634bf867d03f3d440862916
 # )
 
 ## Add cmake target dependencies of the library
@@ -152,11 +129,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-<<<<<<< HEAD
 # add_executable(${PROJECT_NAME}_node src/team_55_node.cpp)
-=======
-# add_executable(${PROJECT_NAME}_node src/team55_node.cpp)
->>>>>>> ae7d3c4e80c7646a3634bf867d03f3d440862916
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -220,11 +193,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-<<<<<<< HEAD
 # catkin_add_gtest(${PROJECT_NAME}-test test/test_team_55.cpp)
-=======
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_team55.cpp)
->>>>>>> ae7d3c4e80c7646a3634bf867d03f3d440862916
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

@@ -34,7 +34,7 @@ class ObjectApproacher:
             # Obstacle Checking
 
 
-            if self.rotation_target > self.current_rotation:
+            if self.rotation_target > self.current_rotation - self.start_rotation:
                 rospy.loginfo(self.rotation_target)
                 rospy.loginfo(self.current_rotation)
                 direction.angular.z = -0.1
