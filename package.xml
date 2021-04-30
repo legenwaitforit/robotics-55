@@ -1,8 +1,14 @@
 <?xml version="1.0"?>
 <package format="2">
+<<<<<<< HEAD
   <name>team_55</name>
   <version>0.0.0</version>
   <description>The team_55 package</description>
+=======
+  <name>team55</name>
+  <version>0.0.0</version>
+  <description>The team55 package</description>
+>>>>>>> ae7d3c4e80c7646a3634bf867d03f3d440862916
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
@@ -19,7 +25,11 @@
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
+<<<<<<< HEAD
   <!-- <url type="website">http://wiki.ros.org/team_55</url> -->
+=======
+  <!-- <url type="website">http://wiki.ros.org/team55</url> -->
+>>>>>>> ae7d3c4e80c7646a3634bf867d03f3d440862916
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
@@ -49,6 +59,12 @@
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
+<<<<<<< HEAD
+=======
+  <build_depend>rospy</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+>>>>>>> ae7d3c4e80c7646a3634bf867d03f3d440862916
 
 
   <!-- The export tag contains other, unspecified, tags -->
